@@ -1,0 +1,10 @@
+.wrapper__output {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.output__block {
+    /*padding: 10px 20px;*/
+}

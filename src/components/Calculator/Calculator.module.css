@@ -12,25 +12,9 @@ h4 {
     margin-bottom: 6px;
 }
 
-.wrapper__input,
-.wrapper__output {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-bottom: 40px;
-}
 
-.wrapper__input {
-    margin-right: 50px;
-}
 
-.input__block {
-    /*padding: 10px 20px;*/
-}
 
-.output__block {
-    /*padding: 10px 20px;*/
-}
 
 .give_me_result {
     width: 200px;
