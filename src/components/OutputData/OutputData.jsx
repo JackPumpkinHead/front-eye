@@ -1,7 +1,7 @@
-import style from "../Output/Output.module.css";
+import style from "./OutputData.module.css";
 
 
-export const Output = () => {
+export const OutputData = () => {
     return (
         <div className={style.wrapper__output}>
             <h1>Результат: </h1>
@@ -69,6 +69,11 @@ export const Output = () => {
             <div className={style.output__block}>
                 <h4>Оптимизированная рефракция SRK/T</h4>
                 <input id="REFX" />
+            </div>
+
+            <div className={style.output__block}>
+                <div>Послеоперационный сфероэквивалент</div>
+                    <input id="after_operation" />
             </div>
         </div>
     )

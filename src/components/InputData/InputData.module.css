@@ -1,0 +1,26 @@
+.wrapper__input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.wrapper__input {
+    margin-right: 50px;
+}
+
+.input__block {
+    /*padding: 10px 20px;*/
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}

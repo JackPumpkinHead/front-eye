@@ -9,7 +9,7 @@ export const Header = () => {
     useEffect(() => {
         fetch('/api')
             .then(response => response.json())
-            .then(response => setData(response.message))
+            .then(response => setData(response.value))
     }, [])
 
     return (

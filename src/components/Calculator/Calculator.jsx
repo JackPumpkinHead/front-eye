@@ -1,12 +1,12 @@
 import style from "./Calculator.module.css";
-import {Input} from "../Input/Input";
-import {Output} from "../Output/Output";
+import { InputData } from "../InputData/InputData";
+import { OutputData } from "../OutputData/OutputData";
 
 export const Calculator = () => {
     return (
         <div className={style.wrapper}>
-            <Input />
-            <Output />
+            <InputData />
+            <OutputData />
         </div>
     )
 }
